@@ -1,0 +1,16 @@
+/static , /public /resource, /META-INF/resources
+스프링 부트는 클래스패스의 다음 디렉터로이 있는 정적 리소스를 제공한다.
+
+src/main/resource는 리소스를 보관하는곳이고 또 클래스패스의 시작경로이다.
+
+
+정적 리소스 경로
+src/main/resources/static
+
+다음 경로에 파일이 있으면
+src/main/resources/static/basic/hello-form.html
+웹 브라우저 에서 다음과 같이 실행하면 된다.
+http://localhost:8080/basic/hello-form.html
+
+
+뷰템플ㄹ
